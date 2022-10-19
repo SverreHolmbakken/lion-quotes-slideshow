@@ -3,7 +3,8 @@ body {
 }
 
 .slideshow {
-	
+	display: flex;
+	margin: auto;
 }
 
 .slideshow__figure {
@@ -12,4 +13,19 @@ body {
 
 .slideshow__figure--visible {
 	display: block;
+}
+
+.figure-button {
+	display: flex;
+	justify-content: center;
+	border: none;
+	background: none;
+}
+
+#button-left {
+
+}
+
+#button-left {
+
 }
