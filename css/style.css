@@ -4,7 +4,7 @@ body{
   justify-content: center;
   align-items: center;
   background: #895737;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 500;
   font-family: 'Patua One';
 }
@@ -68,14 +68,10 @@ ul {
 	position: absolute;
 	text-align: center;
 	color: white;
-	background: rgba(0, 0, 0, 0.5);
 	width: 75%;
-	margin-top: 400px;
-	margin-left: 25px;
 	padding: 5px;
 	border-radius: 5px;
-	box-shadow: 0 5px 25px rgb(1 1 1 / 5%);
-
+	text-shadow: 0 0 30px rgba(0, 0, 0, 0.40);
 }
  
 .navigation{
