@@ -77,10 +77,22 @@ ul {
 	border: none;
  }
 
+button svg path {
+	fill: green;
+}
+
  .button-left{
+	position: absolute;
+	top: 500px;
+	left: 100px;
+	z-index: 3;
  }
  
  .button-right{
+	position: absolute;
+	top: 500px;
+	right: 100px;
+	z-index: 3;
  }
  
  .navigation-visibility{
