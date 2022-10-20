@@ -3,7 +3,28 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #824e06;
+  background: #895737;
+}
+
+header {
+	position: absolute;
+	width: 100vw;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	height: 80px;
+	background: #ECA76B;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+	position: absolute;
+	width: 100vw;
+	height: 80px;
+	bottom: 0px;
+	left: 0px;
+	height: 80px;
+	background: #ECA76B;
 }
 
 ul {
@@ -21,6 +42,7 @@ ul {
  }
  
  .slider .slide{
+	align-items: center;
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -33,13 +55,14 @@ ul {
  }
  
  .slider .slide img{
+	align-self: center;
 	position: absolute;
-	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	object-fit: none;
  }
  
  .slider .slide .info{
+	justify-content: center;
 	position: absolute;
 	color: #222;
 	background: rgba(255, 255, 255, 0.3);
@@ -70,10 +93,8 @@ ul {
 	transition: opacity 0.5s ease;
  }
  
- .slider:hover .navigation{
-	opacity: 1;
- }
- button {
+
+button {
 	background: none;
 	border: none;
  }
