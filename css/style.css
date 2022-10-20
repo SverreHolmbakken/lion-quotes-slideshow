@@ -113,7 +113,7 @@ ul {
 	bottom: 20px;
  }
  
- .navigation .slide-dot{
+ .slide-dot{
 	z-index: 999;
 	background: rgba(255, 255, 255, 0.5);
 	width: 20px;
@@ -122,9 +122,13 @@ ul {
 	margin: 0 6px;
 	border-radius: 2px;
 	box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+	cursor: pointer;
  }
  
  .navigation .slide-dot.active{
 	background: rgba(255, 255, 255);
  }
  
+ .slide-dot:hover {
+	background: rgba(255, 255, 255, 0.75);
+ }
