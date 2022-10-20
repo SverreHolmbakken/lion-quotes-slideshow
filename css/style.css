@@ -75,13 +75,13 @@ ul {
 	text-align: center;
 	color: white;
 	background: rgba(0, 0, 0, 0.5);
+	
 	width: 75%;
-	margin-top: 400px;
-	margin-left: 25px;
+	bottom: 0px;
+	left: 0.5rem;
 	padding: 5px;
 	border-radius: 5px;
 	box-shadow: 0 5px 25px rgb(1 1 1 / 5%);
-
 }
  
 .navigation{
@@ -102,15 +102,19 @@ button {
 .button-left{
 	position: absolute;
 	top: 50%;
-	left: 10%;
+	left: 5%;
 	z-index: 3;
 }
  
 .button-right{
 	position: absolute;
 	top: 50%;
-	right: 10%;
+	right: 5%;
 	z-index: 3;
+}
+
+button img {
+	height: 5rem;
 }
  
 .navigation{
