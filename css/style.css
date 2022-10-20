@@ -15,18 +15,18 @@ body {
 	display: block;
 }
 
-.figure-button {
+.slideshow__figure-button {
 	display: flex;
 	justify-content: center;
 	border: none;
 	background: none;
 }
 
-#button-left {
+.button-left {
 
 }
 
-#button-left {
+.button-left {
 
 }
 
