@@ -152,6 +152,9 @@ button img {
 	html {
 		font-size: 15px;
 	}
+	.slide .figure-caption{
+		-webkit-text-stroke-width: 2px;
+	}
 }
 
 @media screen and (max-width: 865px) {
