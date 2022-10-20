@@ -2,39 +2,24 @@ body {
 	background-color: rgb(137, 125, 100);
 }
 
-.slideshow {
-	display: flex;
-	margin: auto;
+.slider {
+	position: relative;
+	background: #000116;
+	width: 800px;
+	min-height: 500px;
+	margin: 20px;
+	overflow: hidden;
+	border-radius: 10px;
 }
 
-.slideshow__figure {
-	display: none;
+.slider .slide{
+	position: absolute;
+	width: 100%;
 }
-
-.slideshow__figure--visible {
-	display: block;
-}
-
-.slideshow__figure-button {
-	display: flex;
-	justify-content: center;
-	border: none;
-	background: none;
-}
-
-.button-left {
-
-}
-
-.button-left {
-
-}
-
-.slideshow__dot {
-	cursor: pointer;
-	height: 70px;
-	width: 70px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
+ 
+ 
+.slider .slide img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
 }

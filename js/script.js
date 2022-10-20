@@ -1,26 +1,47 @@
-const slides = document.getElementsByClassName('slideshow__figure')
+// variables
+const slider = document.querySelector(".slider");
+const buttonRIght = document.querySelector(".button-right");
+const buttonLeft = document.querySelector(".button-left");
+const slides = document.querySelectorAll(".slide");
+const slideDot = document.querySelectorAll(".slide-dot");
+const numberOfSlides = slides.length;
+let slideNumber = 0;
 
-const leftArrow = document.getElementById('button-left')
-const rightArrow = document.getElementById('button-right')
+// event listeners
+// change to next image
+buttonRIght.addEventListener("click", () => {
+	slides.forEach((slide) => {
+	  slide.classList.remove("active");
+	});
+	slideDot.forEach((slideDot) => {
+	  slideDot.classList.remove("active");
+	});
 
-const dots = document.getElementsByClassName('slideshow__dot')
+	slideNumber++;
 
+	if(slideNumber > (numberOfSlides - 1)){
+	  slideNumber = 0;
+	}
 
-//event listeners;
-dots.addEventListener('click', );
-leftArrow.addEventListener('click', handlePreviousSlide);
+	slides[slideNumber].classList.add("active");
+	slideDot[slideNumber].classList.add("active");
+ });
 
+  // change to previous image
+  buttonLeft.addEventListener("click", () => {
+	slides.forEach((slide) => {
+	  slide.classList.remove("active");
+	});
+	slideDot.forEach((slideDot) => {
+	  slideDot.classList.remove("active");
+	});
 
-let slideIndex = 1;
+	slideNumber--;
 
-function handlePreviousSlide() {
-	if (number > slides.length) {slideIndex = 1};
-	if (number < 1) {slideIndex = slides.length};
-	for (index = 0; index < slides.length; index += 1) {
-		slides[index].className = slides[index].className.replace('.slideshow__figure--visible', '.slideshow__figure')
-	};
-	for (index = 0; index < dots.length; index += 1) {
-		dots[index].className = dots[index].className.replace(' active', '')
-	};
-;}
+	if(slideNumber < 0){
+	  slideNumber = numberOfSlides - 1;
+	}
 
+	slides[slideNumber].classList.add("active");
+	slideDot[slideNumber].classList.add("active");
+ });
