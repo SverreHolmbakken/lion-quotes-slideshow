@@ -8,7 +8,7 @@ body{
   justify-content: center;
   align-items: center;
   background: #895737;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 500;
   font-family: 'Patua One';
 }
@@ -82,6 +82,13 @@ ul {
 	padding: 5px;
 	border-radius: 5px;
 	box-shadow: 0 5px 25px rgb(1 1 1 / 5%);
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: black;
+	width: 75%;
+	padding: 5px;
+	border-radius: 5px;
+	text-shadow: 0 0 30px rgba(0, 0, 0, 0.40);
 }
  
 .navigation{
