@@ -75,13 +75,9 @@ ul {
  }
  
  .button-left{
-	border-top-right-radius: 3px;
-	border-bottom-right-radius: 3px;
  }
  
  .button-right{
-	border-top-left-radius: 3px;
-	border-bottom-left-radius: 3px;
  }
  
  .navigation-visibility{
@@ -90,18 +86,11 @@ ul {
 	justify-content: center;
  }
  
- .navigation-visibility .slide-icon{
-	z-index: 999;
-	background: rgba(255, 255, 255, 0.5);
-	width: 20px;
-	height: 10px;
-	transform: translateY(-50px);
-	margin: 0 6px;
-	border-radius: 2px;
-	box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+ .navigation-visibility .slide-dot{
+	
  }
  
- .navigation-visibility .slide-icon.active{
+ .navigation-visibility .slide-dot.active{
 	background: #4285F4;
  }
  
