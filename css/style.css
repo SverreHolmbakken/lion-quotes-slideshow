@@ -5,6 +5,11 @@ body{
   align-items: center;
   background: #824e06;
 }
+
+ul {
+	list-style: none;
+}
+
 .slider{
 	position: relative;
 	background: #000116;
