@@ -70,24 +70,22 @@ ul {
 	object-fit: contain;
  }
 
-.figure-caption{
+.slide .figure-caption{
 	position: relative;
 	text-align: center;
 	color: white;
-	background: rgba(0, 0, 0, 0.5);
-	
 	width: 75%;
-	bottom: 0px;
-	left: 0.5rem;
+	top: 15rem;
+	left: 5rem;
 	padding: 5px;
 	border-radius: 5px;
-	box-shadow: 0 5px 25px rgb(1 1 1 / 5%);
+	/* box-shadow: 0 5px 25px rgb(1 1 1 / 5%); */
 	-webkit-text-fill-color: white;
 	-webkit-text-stroke-width: 3px;
 	-webkit-text-stroke-color: black;
 	padding: 5px;
 	border-radius: 5px;
-	text-shadow: 0 0 30px rgba(0, 0, 0, 0.40);
+	text-shadow: 0 0 15px rgb(0, 0, 0);
 }
  
 .navigation{
@@ -159,5 +157,22 @@ button img {
 @media screen and (max-width: 865px) {
 	html {
 		font-size: 8px;
+	}
+
+	.slide .figure-caption{
+		position: relative;
+		text-align: center;
+		color: white;
+		width: 75%;
+		top: 30rem;
+		left: 5rem;
+		padding: 5px;
+		border-radius: 5px;
+		-webkit-text-fill-color: white;
+		-webkit-text-stroke-width: 0.5px;
+		-webkit-text-stroke-color: black;
+		padding: 5px;
+		border-radius: 5px;
+		text-shadow: 0 0 15px rgb(0, 0, 0);
 	}
 }
