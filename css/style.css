@@ -73,7 +73,11 @@ ul {
  .slider:hover .navigation{
 	opacity: 1;
  }
- 
+ button {
+	background: none;
+	border: none;
+ }
+
  .button-left{
  }
  
