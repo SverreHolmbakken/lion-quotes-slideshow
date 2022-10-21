@@ -8,7 +8,9 @@ const numberOfSlides = slides.length;
 let slideNumber = 0;
 
 // event listeners
+
 // change to next image
+// https://www.codingsnow.com/2021/05/tutorial56.html
 buttonRIght.addEventListener("click", () => {
 	slides.forEach((slide) => {
 	  slide.classList.remove("active");
@@ -27,8 +29,9 @@ buttonRIght.addEventListener("click", () => {
 	slideDot[slideNumber].classList.add("active");
  });
 
-  // change to previous image
-  buttonLeft.addEventListener("click", () => {
+// change to previous image
+// https://www.codingsnow.com/2021/05/tutorial56.html
+buttonLeft.addEventListener("click", () => {
 	slides.forEach((slide) => {
 	  slide.classList.remove("active");
 	});
